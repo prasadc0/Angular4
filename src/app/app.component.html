@@ -1,0 +1,91 @@
+<div style="position: relative;"  >
+  <div class="breadcrumb">
+ 
+  <div class="breadcrumb-item active"><a routerLink="/" routerLinkActive="active">Home</a> </div>
+     <div class="breadcrumb-item"><a routerLink="/testComp" routerLinkActive="active">RtvDetails</a></div>
+  <div class="breadcrumb-item"> <a routerLink="/rtvDetails" routerLinkActive="active">Transfer Details</a> </div>
+</div> 
+<!-- 
+<div    class='Drag-button'  id="p1"    (releaseDrop)="releaseDrop($event)"  
+ (startDrag)="dragstart_handler($event)" draggable="true" >
+	<img   class="draggable-image"src="../assets/images/lnr-eye.svg" >
+
+</div >
+
+ <div  style="height:100px; width:100px; background:green;" dropDirective (dropEvent)="drop_handler($event)" class="droppable"  >
+ 	
+
+ </div> -->
+
+<!-- <div dropDirective (dropEvent)="addDropItem($event)" (dropEventMouse)="dropEventMouse($event) (dragenterEvent)="dragEnter($event)" (dragleaveEvent)="dragLeave()" class="droppable" [dropHighlight]="'highlight'"  '(dragoverMouseEvent)'="dragoverMouse($event)">
+</div> -->
+  
+<!-- <div class="bby-header">
+	<span class="col-lg-2 col-md-2 col-sm-2 col-xs-2 bby-padding-remover"><button class="bby-menu"  ></button></span>
+	<span class="col-lg-10 col-md-10 col-sm-10 col-xs-10 bby-padding-remover bby-center"><span class="bby-RSS-logo"></span></span>
+	
+</div>  -->
+
+<!--Start of Content-->
+
+<div class="bby-full-content bby-dasboard bby-padding-remover-mob"  style="overflow: auto;position: relative;" >
+	<div class="bestbuy-menu">
+		<button class="bby-menu-button col-lg-5 col-md-5 "></button>
+		<div class="col-lg-7 col-md-7" >
+		<img class="bby-logo"   src="../assets/images/img-rss_logo_white.png" alt="RSS logo" height="42" width="42"> 
+		</div>
+	  </div>
+	 <ul class="list-group">
+	 
+		<li class="list-group-item-home"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard col-lg-10 col-md-10" routerLink="/rtvDetails" routerLinkActive="active">{{"LABEL_OUTBOUND_SHIPMENT"|translate}}</label>
+			<button class="col-lg-2 col-md-2 pulling-right" (click)=OpenSinglemodel()>Show confirm</button>
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.OUTSHP}}</span>--></li>
+		
+		<li class="list-group-item-home" >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard" routerLink="/app-shipdetails" routerLinkActive="active">{{'LABEL_INBOUND_SHIPMENT'|translate}}</label>
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.INBSHP}}</span>--></li>
+		
+		<li class="list-group-item-home hidden-sm hidden-xs"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard">{{'LBEL_EXCEPTIONTFS'|translate}}</label>
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.EXPTSF}}</span>--></li>
+			
+		<li class="list-group-item-home hidden-sm hidden-xs"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard">{{'LBEL_EXCEPTION_POS'|translate}}</label>
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.EXPPOS}}</span>--></li>
+			
+		<li class="list-group-item-home"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard">{{'LABEL_STOCK_COUNT'|translate}}</label>
+			<!-- <span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.STKCTN}}</span>--></li>
+			
+		<li class="list-group-item-home"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard">{{'LABEL_LICENSE_PLATE'|translate}}</label>
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.LICPLT}}</span>--></li>
+			
+		<li class="list-group-item-home"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard">{{'LABEL_INVENTORY_ADJUSTMENTS'|translate}}</label>
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.INVADJ}}</span>--></li>
+			
+		<li class="list-group-item-home"  >
+			<label class="bby-label-blue-heading bby-label-blue-dashboard">{{'LBEL_DOWNSTOCK_QUEUE'|translate}}</label>
+
+			<!--<span class="bby-right bby-label-dashboard">{{dashBoardObj.dashBoardCoount.DWNSTK}}</span>--></li>						
+	</ul>
+	
+</div> 
+ 
+<!--End of Content-->
+
+</div>
+
+
+<router-outlet ></router-outlet>
+<div>
+      <!-- <app-add-banner [ads]="ads"></app-add-banner> -->
+
+ </div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+

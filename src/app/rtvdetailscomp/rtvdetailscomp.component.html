@@ -1,0 +1,29 @@
+
+<h2>TransferScreen </h2>
+
+<table>
+	<thead>
+		<th>TransferNumber</th>
+		<th>ReferenceNumber</th>
+		<th>TransferType</th>
+		<th>fromLocationName</th>
+		<th>fromLocationId</th>
+		<th>status</th>
+	</thead>
+	<tbody>
+		<tr *ngFor="let hero of details">
+		<td>
+<button (click)="onClickMe($event)">{{hero.transferNumber}}</button>
+		</td>
+		<td>{{hero.referenceNumber}}</td>
+		<td>{{hero.transferType}}</td>
+		<td>{{hero.fromLocationName}}</td>
+		<td>{{hero.fromLocationId}}</td>
+		<td>{{hero.status}}</td>
+		</tr>
+
+	</tbody>
+
+</table>
+
+<!-- *ngfor='let item in details' -->

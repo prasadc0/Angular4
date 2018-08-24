@@ -1,0 +1,1904 @@
+*{
+	outline: none !important;
+}
+
+/*---------start of font-family ------------------*/
+@font-face {
+    font-family: roboto;
+    src: url(roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-italic;
+    src: url(roboto/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(roboto/Roboto-Light.ttf);
+}
+/*---------end  of font-family------------------*/
+
+
+/*---------start of heading tag (h1 to h6) ------------------*/
+h1{
+	font-size:21px;
+	line-height:32px;
+}
+h2{
+	font-size:19px;
+	line-height:27px;
+}
+h3{
+	font-size:18px;
+	line-height:25px;
+}
+h4{
+	font-size:16px;
+	line-height:24px;
+}
+h5{
+	font-size:12px;
+	line-height:18px;
+}
+h6{
+	font-size:11px;
+	line-height:16px;
+}
+/*---------end  of heading tag------------------*/
+
+
+/*---------start of body tag------------------*/
+
+body,p{
+	font-family:roboto;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #353535;
+	width:100%;
+}
+
+/*---------end  of body tag------------------*/
+
+
+/*---------start of small text------------------*/
+.bby-small-text{
+	font-size: 12px;
+	line-height:16px;
+}
+/*---------end  of small text------------------*/
+
+
+/*---------start of text style------------------*/
+.bby-normal{
+	font-weight:normal;
+	font-family:roboto;
+}
+.bby-italic{
+	font-style:italic;
+	font-family:roboto-italic;
+}
+.bby-bold{
+	font-weight:bold;
+	font-family:roboto-bold;
+}
+/*---------end of text style------------------*/
+
+
+/*---------start of remover------------------*/
+.bby-border-remover {
+	border: 0px !important;
+}
+.bby-margin-remover {
+	margin:0px !important;
+}
+.bby-padding-remover {
+	padding:0px !important;
+}
+/*---------end of remover------------------*/
+
+
+/*---------start of alignment ------------------*/
+.bby-right {
+	float:right;
+}
+.bby-left {
+	float:left;
+}
+.bby-right-text{
+	text-align:right;
+}
+.bby-left-text{
+	text-align:left;
+}
+.bby-center-text{
+	text-align:center !important;
+}
+/*---------end of alignment------------------*/
+
+
+/*---------start of margin ------------------*/
+.bby-margin-10 {
+	margin:10px;
+}
+.bby-margin-20 {
+	margin:20px;
+}
+.bby-margin-30 {
+	margin:30px;
+}
+.bby-margin-auto {
+	margin:0 auto;
+}
+.bby-margin-left-10 {
+	margin-left:10px;
+}
+.bby-margin-right-10 {
+	margin-right:10px;
+}
+.bby-margin-top-10 {
+	margin-top:10px;
+}
+.bby-margin-bottom-10 {
+	margin-bottom:10px;
+}
+.bby-margin-left-20 {
+	margin-left:20px;
+}
+.bby-margin-right-20 {
+	margin-right:20px;
+}
+.bby-margin-top-20 {
+	margin-top:20px;
+}
+.bby-margin-bottom-20 {
+	margin-bottom:20px;
+}
+.bby-margin-bottom-50 {
+	margin-bottom:50px;
+}
+.bby-margin-bottom-60 {
+	margin-bottom:60px;
+}
+.bby-margin-bottom-120 {
+	margin-bottom:120px;
+}
+.bby-margin-left-30 {
+	margin-left:30px;
+}
+.bby-margin-right-30 {
+	margin-right:30px;
+}
+/*---------end of margin ------------------*/
+
+
+/*---------start of padding ------------------*/
+.bby-padding-10 {
+	padding:10px;
+}
+.bby-padding-20 {
+	padding:20px;
+}
+.bby-padding-30 {
+	padding:30px;
+}
+.bby-padding-left-10 {
+	padding-left:10px;
+}
+.bby-padding-right-10 {
+	padding-right:10px;
+}
+.bby-padding-top-10 {
+	padding-top:10px;
+}
+.bby-padding-bottom-10{
+	padding-bottom:10px;
+}
+.bby-padding-top-15 {
+	padding-top:15px;
+}
+.bby-padding-top-20{
+	padding-top:20px;
+}
+.bby-padding-bottom-20{
+	padding-bottom:20px;
+}
+.bby-padding-left-30 {
+	padding-left:30px;
+}
+.bby-padding-right-30 {
+	padding-right:30px;
+}
+.bby-padding-50 {
+	padding:50px;
+}
+.bby-padding-top-30 {
+	padding-top:30px;
+}
+.bby-padding-bottom-30 {
+	padding-bottom:30px;
+}
+.bby-padding-right-50{
+  padding-right:50px;
+}
+.bby-padding-bottom-70 {
+	padding-bottom: 70px;
+}
+/*---------end of padding ------------------*/
+
+
+/*---------start of width ------------------*/
+.bby-width-100 {
+	width:100% !important;
+}
+.bby-width-60 {
+	width:60%;
+}
+.bby-width-67 {
+	width:67%;
+}
+.bby-width-50 {
+	width:50%;
+}
+.bby-width-49 {
+	width:49%;
+}
+.bby-width-45 {
+	width:45%;
+}
+.bby-width-40 {
+	width:40%;
+}
+.bby-width-33 {
+	width:33% !important;
+}
+.bby-width-25{
+	width:25%;
+}
+/*---------end of width ------------------*/
+
+
+/*---------start of height ------------------*/
+.bby-height-24 {
+	height:24px ;
+ }
+ .bby-height-60{
+	height:60px;
+}
+/*---------end of height ------------------*/
+
+
+/*---------start of border ------------------*/
+.bby-border{
+	border: 1px solid #a9e0ea ;    
+}
+.bby-border-error:focus{
+	border: 1px solid #bb0628;
+}
+/*---------end of border ------------------*/
+
+
+/*---------start of divider ------------------*/
+
+.bby-dotted-divider {
+	border-bottom: 1px dashed #c3c4c4;
+}
+.bby-divider{
+	border-bottom:1px solid #c3c4c4;
+}
+.bby-divider-pad{
+	border-bottom:1px solid #c3c4c4;
+	width:95%;	
+}
+.bby-divider-thick{
+	border-bottom:2px solid #c6c7c7;
+}
+/*---------end of divider ------------------*/
+
+
+/*---------start of text-color ------------------*/
+.bby-blue-d{
+    color: #003b64;
+}
+.bby-blue{
+    color: #085eb9;
+}
+.bby-blue-l{
+    color: #d8f1f6;
+}
+.bby-green{
+	color: #308c00;
+}
+.bby-red{
+	color: #bb0628;
+}
+.bby-black{
+	color:#353535;
+}
+.bby-grey-d{
+	color: #858585;
+}
+.bby-grey{
+	color: #9a9b9b;
+}
+.bby-grey-l{
+	color: #c3c4c4;
+}
+.bby-white-l{
+	color: #f3f3f3;
+}
+/*---------end of text-color ------------------*/
+  
+  
+/*---------start of background-color ------------------*/
+.bby-transparent{
+	background-color: transparent;
+}
+.bby-white-l-background{
+	background-color: #f3f3f3;
+}
+.bby-white-background{
+	background-color: #ffffff;
+}
+.bby-grey-d-background{
+	background-color: #858585;
+}
+.bby-grey-background{
+	background-color: #9a9b9b;
+}
+.bby-grey-l-background{
+	background-color: #c3c4c4;
+}
+/*---------end of background-color ------------------*/
+
+
+
+ /*---------start of font ------------------*/
+.bby-font-12{
+	font-size:12px;
+}
+.bby-font-13{
+	font-size:13px;
+}
+.bby-font-14{
+	font-size:14px;
+}
+.bby-font-16{
+	font-size:16px;
+}
+.bby-font-17{
+	font-size:17px;
+}
+.bby-font-19{
+	font-size:19px;
+	font-weight: normal;
+	font-family: roboto; 
+}
+.bby-font-23{
+	font-size:23px;
+}
+/*---------end of font ------------------*/
+
+
+/*---------start of label ------------------------*/
+label{
+	margin:0px;
+	font-weight: bold;
+	font-family:roboto-bold;
+	word-wrap: break-word;
+}
+.bby-input-label,.bby-pills-label{
+    font-size: 14px;
+	color: #858585;
+	display:block;
+}
+.bby-label{
+	font-size: 14px;
+	color: #858585;
+	margin-bottom:10px;
+}
+.bby-label-error-msg{
+	font-size: 14px;
+	color: #bb0628;
+	font-family:roboto-italic;
+	font-style: italic;
+}
+.bby-label-error{
+	font-size: 14px;
+	color: #bb0628;
+}
+.bby-label-heading-search{
+	font-size: 17px;
+	color: #353535;
+	font-family:roboto;
+	font-weight: normal;
+}
+.bby-label-reset{
+	font-size: 14px;
+	color: #085eb9;
+	float: right;
+	font-weight: bold;
+	font-family:roboto-bold;
+	border: 0px;
+    background-color: transparent;
+}
+.bby-label-contain{
+	font-size: 12px;
+	color: #353535;
+	font-weight: bold;
+	font-family:roboto-bold;
+}
+.bby-label-begin{
+	font-size: 12px;
+	color: #085eb9;
+	font-weight: normal;
+	font-family:roboto;
+}
+.bby-label-bold-blue{
+	color: #085eb9;
+	font-weight: bold;
+	font-family:roboto-bold;
+}
+.bby-label-regular-blue{
+	color: #085eb9;
+	font-weight: normal;
+	font-family:roboto;
+}
+.bby-label-bold-grey{
+	color: #353535;
+	font-weight: bold;
+	font-family:roboto-bold;
+}
+.bby-label-regular-grey{
+	color: #353535;
+	font-weight: normal;
+	word-break: break-all;
+	font-family:roboto;
+}
+.bby-label-break {
+	word-break: break-all;
+}
+.bby-label-big-black{
+	color: #000000;
+	font-weight: normal;
+	font-family:roboto;
+	font-size:17px;
+	line-height:21px;
+	margin-top:10px;
+	margin-bottom:10px;
+	word-wrap: break-word;
+}
+.bby-label-notification{
+	color: #353535;
+	font-weight: normal;
+	font-family:arial;
+	font-size:12px;
+}
+.bby-label-light{
+	font-family: roboto-light;
+	font-size:23px;
+	color:#858585;
+	line-height:18px;
+}
+.bby-label-blue-heading{
+	font-family: roboto-light;
+	font-size:16px;
+	color:#085eb9;
+	line-height:20px;
+}
+.bby-label-blue-dashboard{
+	font-size:18px;
+}
+.bby-label-grey-heading{
+	font-family: roboto-light;
+	font-size:16px;
+	color:#353535;
+	line-height:20px;
+}
+.bby-label-dashboard{
+	background-color: #003b64;
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100em;
+}
+/*---------end of label ------------------------*/
+
+
+/*---------start of input box------------------*/
+.bby-input-box{
+	margin-bottom:10px;
+}
+input[type="text"]{
+	width:100%;
+	height:40px;
+    border: 1px solid #c3c4c4;
+    padding: 12px 13px;
+    margin: 10px 0px;
+    color: #353535;
+    font-weight:bold;
+    font-family:roboto-bold;
+    font-size:14px;
+}
+input[type="text"]:focus, input[type="text"]:active,input[type="text"]:hover{
+    outline:none;
+    border: 1px solid #a9e0ea;
+}
+input[type="text"]:disabled {
+    border: 1px solid #d9d9d9;
+    color: #c3c4c4;
+    background:#e7e7e7;
+}
+input[type="number"]{
+	width:100%;
+	height:40px;
+    border: 1px solid #c3c4c4;
+    padding: 12px 13px;
+    margin: 10px 0px;
+    color: #353535;
+    font-weight:bold;
+    font-family:roboto-bold;
+    font-size:14px;
+}
+input[type="number"]:focus, input[type="number"]:active,input[type="number"]:hover{
+    outline:none;
+    border: 1px solid #a9e0ea;
+}
+input[type="number"]:disabled {
+    border: 1px solid #d9d9d9;
+    color: #c3c4c4;
+    background:#e7e7e7;
+}
+input[type="tel"]{
+	width:100%;
+	height:40px;
+    border: 1px solid #c3c4c4;
+    padding: 12px 13px;
+    margin: 10px 0px;
+    color: #353535;
+    font-weight:bold;
+    font-family:roboto-bold;
+    font-size:14px;
+}
+input[type="tel"]:focus, input[type="tel"]:active,input[type="tel"]:hover{
+    outline:none;
+    border: 1px solid #a9e0ea;
+}
+input[type="tel"]:disabled {
+    border: 1px solid #d9d9d9;
+    color: #c3c4c4;
+    background:#e7e7e7;
+}
+
+/*---------end of input box------------------*/
+
+
+/*--------Modified padding as of UAT #148-------*/
+/*-------------start of text area --------------*/
+.bby-textarea{
+	padding:8px;
+	width:100%;
+	height:181px;	
+	border: 1px solid #c3c4c4;
+    color: #353535;
+	font-size: 13px;
+    line-height: 24px;
+    resize:none;
+}
+.bby-textarea:hover, .bby-textarea:focus ,.bby-textarea:hover{
+    border: 1px solid #a9e0ea;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/*---------end of text area ------------------*/
+
+
+/*---------- start of check box ------------*/
+.bby-line-height-24{
+	display: table-cell;
+    line-height: 24px;
+}
+input[type="checkbox"]{
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	background: url(./images/icon-checkbox.svg) no-repeat;
+    height:34px;
+    width:34px;
+	border:1px solid #fff;
+	outline: none;
+}
+input[type="checkbox"]:checked {
+    background: url(./images/icon-checkbox_checked.svg) no-repeat;  
+}
+input[type="checkbox"]:focus{
+  outline: none;
+  box-shadow: none;
+}
+input[type="checkbox"]:disabled {
+    background: url(./images/icon-checkbox_unchecked_disabled.svg) no-repeat;
+}
+.bby-checkbox-checked-disabled {
+    background: url(./images/icon-checkbox_checked_disabled.svg) no-repeat;
+    cursor: not-allowed;
+	height:34px;
+    width:34px;
+	border:1px solid #fff;
+	outline: none;
+}
+/*---------- end of check box ------------*/
+
+
+/*---------start of radio buttons------------------*/ 
+.bby-line-height-34{
+	display: table-cell;
+    line-height: 34px;
+}
+.bby-display-table{
+	display: table-cell;
+}
+input[type="radio"]:disabled {
+    background: url(./images/icon-radio_unchecked_disabled.svg) center center no-repeat;
+}
+.bby-radio-checked-disabled {
+    background: url(./images/icon-radio_checked_disabled.svg) center center no-repeat;
+    cursor: not-allowed;
+	height:34px;
+    width: 34px;
+	border:0px solid #fff;
+	outline: none;
+}
+input[type="radio"]{
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	background: url(./images/icon-radio.svg) center center no-repeat;
+    height:34px;
+    width:34px;
+	margin:0px;
+	border:0px solid #fff;
+	outline: none !important;
+}
+.bby-radio-unchecked{
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	background: url(./images/icon-radio.svg) center center no-repeat;
+    height:34px;
+    width:34px;
+	margin:0px;
+	border:0px solid #fff;
+	outline: none !important;
+}
+input[type="radio"]:checked {
+    background: url(./images/icon-radio_checked.svg) center center no-repeat;
+}
+.bby-radio-checked{
+	background: url(./images/icon-radio_checked.svg) center center no-repeat;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+    height:34px;
+    width:34px;
+	margin:0px;
+	border:0px solid #fff;
+	outline: none !important;
+}
+input[type="radio"]:focus{
+  outline: 0 none;
+  box-shadow: none;
+}
+/*---------end of radio buttons ------------------*/ 
+
+
+/*---------start of drop down----------------------*/
+.bby-row{
+	margin-bottom:10px;
+}
+.bby-dropdown {
+    width:100%;
+    height: 40px;
+    padding: 3px;
+    color: #353535;
+    font-weight:bold;
+    font-family:roboto-bold;
+    font-size:14px;
+    border: 1px solid #c3c4c4;
+	margin: 10px 0px 10px 0px;
+  	background: linear-gradient(135deg, #f6f6f6, #e8e8e8);
+}
+option{
+    font-weight: normal;
+    font-family:roboto;
+    font-size:14px;
+    padding:13px 12px;
+    color: #353535;
+}
+.bby-dropdown:disabled{
+    color: #777777;
+    background: #eee;
+}	
+/*---------end of drop down----------------------*/
+
+
+/*---------start of links------------------*/
+a{
+	text-decoration: none;
+	color:#085eb9;
+	font-size:16px;
+	line-height:24px;
+	cursor: pointer;
+}
+a:active, a:hover{
+	color:#00469f;
+	text-decoration: none;
+}
+.bby-white-link{
+	color:#ffffff;
+}
+
+.bby-white-link:active, .bby-white-link:hover{
+	color:#ffffff;
+}
+
+/*---------end of links  ------------------*/
+
+/*---------start of button  ------------------*/
+button{
+	font-size: 14px;
+    font-weight:bold;
+    font-family:roboto-bold;
+    height: 40px;    
+    width: 100%;
+    border-radius: 0px;
+   
+}
+button:focus {
+  border-color: #a9e0ea;
+  //outline: 0;
+} 
+/*---------end of button  ------------------*/
+
+/*---------start of primary button------------------*/
+.bby-primary-btn{
+    color: #fff;
+    border: 1px solid #003865;
+    background: linear-gradient(#006cbc,#00449e);
+}
+.bby-primary-btn:hover{
+    background: linear-gradient(#0488d2,#006cbc);
+}
+.bby-primary-btn:active{
+	background: #00469f;
+}
+.bby-primary-btn:disabled{
+    color:#c3c4c4;
+    border:1px solid #c3c4c4;
+  	background: linear-gradient(135deg, #f6f6f6, #e8e8e8);
+}
+.bby-btn-50{
+	width:50%;
+	float:left;
+}
+.bby-primary-btn-white {
+		font-weight: normal;
+		border: 1px solid #c3c4c4;
+		color: #085eb9;
+		background: #ffffff;
+		font-size: 14px;
+		text-align: center;
+}
+.bby-primary-btn-white:disabled{
+		font-weight: normal;
+		border: 1px solid #c3c4c4;
+		color: #c3c4c4;
+		background: linear-gradient(135deg, #f6f6f6, #e8e8e8);
+		font-size: 14px;
+		text-align: center;
+}
+/*---------end of primary button------------------*/
+
+
+/*-------start of secondary button--------------*/
+
+.bby-secondary-btn{
+    color: #085eb9;
+    border: 1px solid #c3c4c4;
+    background: linear-gradient(#f6f6f6, #e8e8e8);
+}
+
+.bby-secondary-btn:hover{
+    color: #1e84ce;
+    background: linear-gradient(,#ffffff,#f6f6f6);
+}
+.bby-secondary-btn:active{
+	color: #1e84ce;
+	background: linear-gradient(#e8e8e8,#f6f6f6);
+	
+}
+.bby-secondary-btn:disabled{
+    color:#c3c4c4;
+    border:1px solid #c3c4c4;
+  	background: linear-gradient(#f6f6f6, #e8e8e8);
+} 
+
+/*-------end of secondary button--------------*/
+
+/*-------start of tertiary button--------------*/
+.bby-tertiary-btn {
+    background-color: #ffffff;
+    color: #085eb9;
+    border: 1px solid #c3c4c4;
+}
+
+ .bby-tertiary-btn:hover{
+    color:  #00469f;
+    border: 1px solid #a9e0ea;
+}
+.bby-tertiary-btn:active{
+	color: #00469f;
+    border: 1px solid #c3c4c4;
+}
+.bby-tertiary-btn:disabled{
+	color:#c3c4c4;
+    border:1px solid #c3c4c4;
+  	background: linear-gradient(135deg, #f6f6f6, #e8e8e8);
+}
+ 
+.bby-tertiary-btn-disabled ,.bby-tertiary-btn-disabled:visited {
+    background-color: #ffffff;
+    color: #c3c4c4;
+    border: 1px solid #c3c4c4;
+}
+.bby-tertiary-btn-disabled:hover, .bby-tertiary-btn-disabled:active{
+	background-color: #d9d9d9;
+    color: #353535;
+	border: 1px solid #c3c4c4;
+}
+/*-------end of tertiary button--------------*/
+
+
+/*-------start of negative button--------------*/
+
+.bby-negative-btn {
+    color: #ffffff;
+    border: 1px solid #c3c4c4;
+    background: linear-gradient(#9a9b9b, #777777);
+}
+
+ .bby-negative-btn:hover{
+ 	background-color: #9a9b9b;
+}
+.bby-negative-btn:active{
+	background: linear-gradient(#9a9b9b, #777777);
+}
+/*-------end of negative button--------------*/
+
+
+/*--------- start of create button i.e circular------------------*/ 
+.bby-create-btn {
+	z-index: 1;
+	position: fixed;
+	bottom: 22px;
+	border:none;
+	right: 32px;
+	padding-top: 32px;
+	border-radius: 60px;	
+	height: 80px;
+	width: 80px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	background: url(./images/icon-add.svg) 30px 17px no-repeat;
+	background-color: #085eb9;
+	box-shadow: 0 6px 6px rgba(0,0,0,.35);
+}
+.bby-create-btn:focus {
+	background-color: #1e84ce;
+}
+.bby-create-btn:active {
+	background-color: #00469f;
+}
+.bby-create-btn:disabled {
+	background-color: #f6f6f4;
+	color: #c3c4c4;
+	background: url(./images/icon-add_disabled.svg) 25px 17px no-repeat;
+	box-shadow: 0 6px 6px #010101;
+}
+/*-------end of create button--------------*/
+
+/*---------start of submit/cancel button-----*/
+.bby-submit-btn{
+    width: 232px;
+}
+/*---------end of submit/cancel button------*/
+
+
+/*---------start of yes button--------------------*/
+.bby-yes-btn , .bby-no-btn{	
+	width: 65px;
+}
+/*---------end of yes/no button--------------------*/
+
+
+/*------------ start of button with icon ---------------*/
+	/*----add or create button with + sign ---*/
+.bby-add{
+	background: url(./images/icon-add-comment.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;	
+}
+.bby-add:focus{
+	background: url(./images/icon-add-comment-active.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;	
+}
+	/*---print button with printer symbol ---*/ 
+.bby-print{
+    background: url(./images/icon-print.svg) no-repeat;
+    height: 28px;
+    width: 32px;
+	border:0px solid #fff;
+}
+.bby-print-disabled {
+    background: url(./images/icon-print-disabled.svg) no-repeat;
+    height: 28px;
+    width: 32px;
+	border:0px solid #fff;
+}
+.bby-print:focus, .bby-print:active{
+    background: url(./images/icon-print_focus.svg) no-repeat;
+}
+
+	/*---print button with printer symbol white---*/ 
+.bby-print-white,.bby-print-white:focus, .bby-print-white:active{
+    background: url(./images/icon-print-white.svg) no-repeat;
+    height: 28px;
+    width: 32px;
+	border:0px solid #fff;
+}
+
+	/*---suspend button with pause symbol ---*/ 
+.bby-suspend{
+    background: url(./images/icon-suspend.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+.bby-suspend:focus {
+    background: url(./images/icon-suspend-focus.svg) no-repeat;    
+}
+	/*---delete button with dustbin symbol ---*/ 
+.bby-delete {
+    background: url(./images/icon-delete.svg) no-repeat;
+    height: 27px;
+    width: 28px;
+	border:0px solid #fff;
+}
+.bby-delete-disabled {
+    background: url(./images/icon-delete-disabled.svg) no-repeat;
+    height: 27px;
+    width: 28px;
+    cursor:not-allowed;
+    pointer-events: none;
+	border:0px solid #fff;
+}
+.bby-diabled-txt {
+	color: #DDD;
+}
+.bby-delete:focus {
+    background: url(./images/icon-delete_focus.svg) no-repeat;
+}	
+	/*---menu button with hamburger symbol ---*/ 
+.bby-menu {
+   	background: url(./images/icon-menu.png) 18px no-repeat;
+    height: 60px;
+    width: 62px;
+    float: left;
+    border: 0px;
+}	
+	/*---search button with magnifying glass  symbol ---*/ 
+.bby-search {
+    background: url(./images/icon-search.svg) 18px no-repeat ;
+    height: 60px;
+    width: 62px;
+   	float: right;
+   	border: 0px;
+}	
+	/*---home button with house symbol ---*/ 
+.bby-home {
+    background: url(./images/icon-home.svg) no-repeat;
+    height: 25px;
+    width: 34px;
+    float: left;
+}
+	/*---home button with house symbol ---*/ 
+.bby-RSS-logo {
+    background: url(./images/img-rss_logo_white.png) no-repeat;
+   	height: 115px;
+    width: 125%;
+    float: left;
+    margin-top: -35px;
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+}	
+	/*---------print queue button with print queue symbol------------------*/
+.bby-print-queue {
+    background: url(./images/icon-print_queue.svg) no-repeat 15px 11px;
+    height: 50px;
+    width: 62px;
+    float: right;
+} 
+	/*---------close button with x symbol------------------*/
+.bby-close {
+    background: url(./images/icon-close_pop_up_normal.svg) no-repeat 7px 4px;
+	background-size: 16px;
+    height: 28px;
+    width: 28px;
+    border: 0px;
+    border-radius: 16px;
+}
+.bby-close:focus,.bby-close:active {
+    background: url(./images/icon-close_pop_up_focus.svg) no-repeat 7px 4px;
+    background-size: 16px;
+  	border: 0px;
+}	
+	/*---scan button with bar code symbol ---*/ 
+.bby-scan {
+    background: url(./images/icon-scan.png) no-repeat;
+    height: 48px;
+    width: 48px;
+	border:0px solid #fff;
+	display: -webkit-inline-box;
+	margin-right: 5px;
+	margin-top: -12px;
+} 
+	/*---------modify button with edit symbol------------------*/
+.bby-modify {
+    background: url(./images/icon-edit.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+.bby-modify:focus,.bby-modify:active {
+    background: url(./images/icon-edit_focus.svg) no-repeat;
+}
+	/*---------back button with <- arrow in blue color------------------*/
+.bby-back {
+    background: url(./images/icon-back_arrow.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+.bby-back:focus {
+    background: url(./images/icon-back_arrow_focus.svg) no-repeat;
+}
+	/*---------back button with <- arrow in grey color------------------*/
+.bby-back-grey {
+    background: url(./images/icon-back_arrow_grey.svg) no-repeat;
+    height: 24px;
+    width: 24px;
+	padding-right: 33px;
+    border: none;
+    border-right: 2px solid #858585;
+}
+	/*---------back button with <- arrow in white color------------------*/
+.bby-back-white {
+    background: url(./images/icon-back_arrow_white.svg) no-repeat;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 0px solid #fff;
+    outline: none !important;
+    float: left;
+}
+	/*---------reset button with rest symbol------------------*/
+.bby-reset-checkbox {
+    background: url(./images/icon-reset_checkbox.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+	/*---------left arrow button with < symbol------------------*/
+.bby-left-arrow {
+    background: url(./images/icon-back_chevron.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+.bby-left-arrow:focus {
+    background: url(./images/icon-back_chevron_focus.svg) no-repeat;
+}
+
+	/*---------right arrow button with > symbol------------------*/
+.bby-right-arrow {
+    background: url(../images/icon-back_chevron.svg) no-repeat;
+	transform: rotate(180deg);
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+.bby-right-arrow:focus {
+    background: url(./images/icon-back_chevron_focus.svg) no-repeat;
+}
+
+	/*---------left arrow button with ^ symbol------------------*/
+.bby-up-arrow,.bby-up-arrow:focus {
+    background: url(./images/icon-close_chevron.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+	/*---------left arrow button with \/ symbol------------------*/
+.bby-down-arrow,.bby-down-arrow:focus  {
+    background: url(./images/icon-open_chevron.svg) no-repeat;
+    height: 28px;
+    width: 28px;
+	border:0px solid #fff;
+}
+	/*---------rotate button for location------------------*/
+.bby-rotate {
+    background: url(./images/icon-flip.svg) no-repeat;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 76px;
+    margin-left: 4px;
+    border: 0px;
+    margin-bottom: 76px;
+}
+/*------------ end of button with icon -----------------*/
+
+
+/*----------------start of expand and collapse button----------------*/
+.bby-add-btn.collapsed:before
+{ 
+    content:url(./images/icon-open_chevron.svg);
+	margin:0px !important;
+	border: 0px !important;
+    background-color: #fff;
+}
+.bby-add-btn:before
+{	
+    content:url(./images/icon-close_chevron.svg);
+	margin:0px !important;
+	border: 0px !important;
+    background-color: #fff;
+}
+.bby-collapse-bg{
+	border: 0px !important; 
+	background-color: #fff;
+}
+/*----------------end of expand and collapse button----------------*/
+
+/*-----------start of toggle switch-------------------*/
+.bby-line-height-40{
+	line-height:40px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 48px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius:48px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #085eb9;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #085eb9;
+}
+input:checked + .slider:before {
+  -webkit-transform: translatex(50px);
+  -ms-transform: translatex(50px);
+  transform: translatex(50px);
+}
+.slider-text {
+    color: #fff;
+    font-size: 13px;
+    font-family: roboto;
+    padding: 12px 10px;
+    float: left;
+}
+/*------------end of toggle switch---------------*/
+
+
+/*---------start of single pill button------------------*/ 
+.bby-single-pills{
+    display : none;
+}
+input[type="radio"] + label {
+    font-weight: normal;
+    border: 1px solid #c3c4c4;
+    float: left;
+    color: #085eb9;
+    background: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    line-height: 38px;
+}
+input[type="radio"].pills-33 + label {
+    font-weight: normal;
+    border: 1px solid #c3c4c4;
+    float: left;
+    color: #085eb9;
+    background: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    width: 33.3%;
+}
+input[type="radio"]:checked + label{
+    background: #e7e7e7;
+    color: #353535;
+ }
+input[type="radio"]:disabled + label{
+    background: #fff;
+    color: #c3c4c4;
+    border: 1px solid #d9d9d9;
+ }
+/*---------end of single pill button------------------*/ 
+
+
+/*----------------------start of multi-select ------------------------------*/
+.bby-multi-pills{
+    display : none;
+}
+input[type="checkbox"] + label {
+    font-weight: normal;
+    border: 1px solid #c3c4c4;
+    float: left;
+    color: #085eb9;
+    background: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    width: 48%;
+    margin-right:2%;
+    margin-bottom:2%;
+    line-height: 28px;
+}
+input[type="checkbox"]:checked + label{
+    background: #e7e7e7;
+    color: #353535;
+ }
+input[type="checkbox"]:disabled + label{
+    background: #fff;
+    color: #c3c4c4;
+    border: 1px solid #d9d9d9;
+ }
+
+/*---------------------end of multi-select -------------------------*/
+
+
+/*----------------------start of table or list odd and even------------------------------*/
+.bby-table{
+	width:100%;
+}
+.bby-table-heading{
+	min-height: 40px;
+	background: #e7e7e7;
+	border-bottom: 1px solid #c3c4c4;
+	border-top: 1px solid #c3c4c4;
+	font-weight: bold;
+	padding:8px 16px 8px;
+	font-size: 13px;
+	clear:both;
+}
+.bby-table-white{
+	color: #353535;
+	font-size: 13px;
+	font-family: roboto;
+	padding:8px 16px 8px;
+	min-height: 40px;	
+	font-weight: normal;
+}
+div.bby-table div{
+	color: #353535;
+	font-size: 13px;
+	font-family: roboto;
+	padding:8px 16px 8px;
+	min-height: 40px;	
+	font-weight: normal;
+}
+ div.bby-table div:nth-of-type(even){
+	background: #f3f3f3;
+}
+div.bby-table div:nth-of-type(odd){
+	background: #ffffff;
+}
+.bby-table-white-border{
+	color: #353535;
+	font-size: 13px;
+	 font-family: roboto;
+	padding:8px 16px 8px;
+	min-height: 40px;	
+	font-weight: normal;
+	border-bottom:1px solid #c3c4c4;
+}
+.bby-table-plain-heading{
+	background-color: #ffffff;
+    padding: 12px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+div.bby-table div:nth-of-type(even){
+	background: #f3f3f3;
+}
+div.bby-table div:nth-of-type(odd){
+	background: #ffffff;
+}
+/*----------------------end of table ------------------------------*/
+
+
+/*---------start of number input------------------------------------*/
+.bby-quantity{
+	width:60px !important;
+	padding:10px 6px !important;
+	border-radius:0px !important;
+}
+.bby-plus{
+	background: url(./images/icon-plus.svg) no-repeat;
+    padding: 6px;
+    height: 15px;
+    width: 20px;
+	border:0px solid #fff;	
+	margin-left:4px;
+}
+.bby-minus{
+	background: url(./images/icon-minus.svg) no-repeat;
+    padding: 6px;
+    height: 15px;
+    width: 20px;
+	border:0px solid #fff;	
+}
+/*---------end of number input------------------------------------*/
+
+
+ @media only screen and (min-width: 900px){
+ 	/*------------------start of scroll bar --------------------*/
+	::-webkit-scrollbar {
+	    width:20px;
+	    background-color: #e7e7e7;
+	    border-left: 9px solid #fff;
+	    border-right: 9px solid #fff;
+	}	
+	::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 2px #c3c4c4; 
+	    border-radius: 5px;
+	    width:3px;
+	}	
+	::-webkit-scrollbar-thumb {
+	    border-radius: 10px;
+	    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5); 
+	    width:3px;
+	    background-color:#c3c4c4;
+	    border-left: 5px solid #fff;
+	    border-right: 5px solid #fff;
+	}
+	/*------------------end of scroll bar --------------------*/
+	
+	
+	/*-----------------start of  placeholder --------------------*/
+	.bby-placeholder::-webkit-input-placeholder { /* webkit browsers */
+        color: transparent;
+    }
+   .fbby-placeholder:-ms-input-placeholder { /* internet explorer 10+ */
+       color: transparent;
+    }
+    /*-----------------end of  placeholder --------------------*/  	
+}
+
+
+/*----------- start of header ---------------*/
+.bby-header{
+	height: 60px;
+	width: 100%;
+	background-color: #003b64;
+	border-bottom: 1px solid #002445;
+	box-shadow: 0 3px rgba(0,0,0,0.25);
+	font-family: roboto;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 60px;
+}
+/*----------- end of header ---------------*/
+
+
+/*----------- start of panel ---------------*/
+	/*-----------panel type a and b i.e. full size with no division-----------------*/
+.bby-full-content{
+	height: calc(100vh - 60px);
+	width: 100%;
+	background-color: #ffffff;
+	z-index:0;
+	color:#353535;
+    position: absolute;
+    overflow:auto;
+}
+.bby-full-content-header{
+	height:130px;
+	width:inherit;
+	border-bottom: 1px solid #c3c4c4;
+}
+.bby-full-content-with-btn{
+	height: calc(100vh - 275px);
+	overflow:auto;
+}
+.bby-full-content-footer{
+	bottom: 0;
+    position: fixed;
+    width: inherit;
+    text-align: center;
+    padding: 19px 120px 18px 120px;
+    border-top: 1px solid #c3c4c4;
+    background-color: #f3f3f3;
+}
+	/*-----------panel type c i.e.with left 60% and right 40%-----------------*/
+.bby-left-panel-C{
+	height: calc(100vh - 60px);
+	width: calc(100vw - 400px);
+	float:left;
+	background-color: #ffffff;
+	color:#353535;    
+    border:1px solid #c3c4c4;
+    overflow:auto;
+}
+.bby-right-panel-C{
+	height: calc(100vh - 60px);
+	width: 400px;
+	float: right;
+	background-color: #ffffff;
+	color:#353535;
+    border:1px solid #c3c4c4;
+    overflow:auto;
+}
+.bby-left-panel-C-heading{
+	background-color:#f3f3f3;
+	padding:10px 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c3c4c4;
+}
+	/*----------start of search panel----------------*/
+.bby-overlay{
+  width:100%;
+  background-color:rgba(0,0,0,.5);
+  height: calc(100vh - 60px);
+  z-index:2;
+  position:fixed;
+  top:60px;
+  left:0px;
+} 
+ .bby-overlay-dark{
+	background-color: #f3f3f3;
+	color:#353535;    
+    width:calc(100vw - 400px);
+	height:calc(100vh - 60px);
+	z-index:2;
+	position:fixed;
+	top:60px; 
+	left:0px;
+}
+ .bby-overlay-right{
+	top: 60px;
+    width: 400px;
+    height: calc(100vh - 60px);
+    z-index: 2;
+    position: fixed;
+    background-color: #fff;
+    right: 0px;
+    overflow: auto;
+    border-left: 1px solid #c3c4c4;
+}
+.bby-right-panel-heading{
+	background-color:#f3f3f3;
+	padding:22px 30px;
+}
+.bby-right-panel-content{
+	background-color:#ffffff;
+	padding:20px 30px;
+	overflow:auto;
+	height: calc(100vh - 200px);
+}
+.bby-right-panel-content-without-btn{
+	background-color:#ffffff;
+	padding:20px 30px;
+	overflow:auto;
+	height: calc(100vh - 130px);
+}
+.bby-right-panel-footer{
+	bottom: 0px;
+    position: fixed;
+    background-color: #f3f3f3;
+    width: 400px;
+    padding: 15px 30px;
+    border-left: 1px solid #c3c4c4;
+}
+
+	/*-----------panel type d i.e.with left 33% and right 67%-----------------*/
+.bby-left-panel-D{
+	height: calc(100vh - 60px);
+	width: 29%;
+	float:left;
+	background-color: #ffffff;
+	color:#353535;    
+    border:1px solid #c3c4c4;
+    overflow:auto;
+}
+.bby-left-panel-D-heading{
+	/*position: fixed;
+	width:inherit;*/
+    background-color: #ffffff;
+	padding: 12px 10px;
+    border-bottom:1px solid #c3c4c4;
+}
+.bby-left-panel-D-content{
+	height: calc(100vh - 110px);
+	overflow:auto;
+}
+.bby-left-panel-D-content-2{			/*left panel with 3 button*/
+	height: calc(100vh - 180px);        /* calc(100vh - 150px);  */
+	overflow:auto;
+}
+.bby-left-panel-D-content-3{			/*left panel with print button and submit button*/
+	height: calc(100vh - 180px);
+	overflow:auto;
+}
+.bby-left-panel-D-footer{
+	bottom: 0;
+    position: fixed;
+    width: inherit;
+	background-color: #ffffff;
+    padding: 0px;
+    border-top:1px solid #c3c4c4;
+    border-right: 1px solid #c3c4c4;
+}
+.bby-left-panel-D-footer-3{
+	bottom: 0;
+    position: fixed;
+    width: inherit;
+    padding: 0px;
+    border-top:0px;
+    height:120px;
+    border-top:1px solid #c3c4c4;
+     border-right: 1px solid #c3c4c4;
+}
+.bby-height-64{
+	height:64px;
+}
+.bby-right-panel-D{
+	height: calc(100vh - 60px);
+	width: 71%;
+	float: right;
+	background-color: #ffffff;
+	color:#353535;
+    border:1px solid #c3c4c4;
+    overflow:auto;
+}
+.bby-right-panel-D-heading{
+	background-color: #e7e7e7;
+    padding: 12px 10px;
+   /*  border-top: 2px solid #c3c4c4;
+    border-bottom: 2px solid #c3c4c4; */
+}
+.bby-right-panel-D-content{
+	height: calc(100vh - 145px);
+	overflow:auto;
+}
+.bby-right-panel-D-footer{
+	bottom: 0;
+    position: fixed;
+    width: inherit;
+    padding: 19px 120px 18px 120px;
+    border-top: 1px solid #c3c4c4;
+    background-color: #f3f3f3;
+    border-right: 1px solid #c3c4c4;
+}
+
+/*----------- end of panel ---------------*/
+
+
+/*---------start of date time picker---------------*/
+.datepicker {
+    position: relative;
+}
+.datepicker .picker * {
+    box-sizing: inherit;
+}
+.datepicker.flat .picker {
+	width: 323px; /* Reg IA calendar size low to background textbox will visible to avoid => 318px;*/
+    background: #ffffff;
+    color: #085eb9;
+	border: 1px solid #c3c4c4;
+	padding-left: 30px;
+    padding-right: 30px;
+	top: 65px !important;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 5;
+    left:0px;
+}
+.picker::after, .picker::before {
+	bottom: 100%;
+	left: 25%;
+	border: solid transparent;
+	content: " ";	
+	position: absolute;
+}
+.picker:before {    /*background color*/
+    border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #c3c4c4;
+	border-width: 21px;
+    margin-left: -21px;
+}
+.picker:after {    
+    border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #fff;
+	border-width: 20px;
+	margin-left: -20px;
+	margin-bottom:-2px;
+}
+
+.bby-todate>div>div>div, .bby-todate-sc>div>div{
+	left:-160px !important;
+    right:0px !important;
+}
+
+.bby-todate .datepicker .picker::after, .bby-todate .datepicker .picker::before, .bby-todate-sc .datepicker .picker::after, .bby-todate-sc .datepicker .picker::before{
+	left:72% !important;
+}
+.datepicker.flat .picker .header {
+    color: #363535;
+    font-size: 18px; 
+	padding-top: 27px;
+    padding-bottom: 36px;
+	position: relative;
+    text-align: center;
+	
+}
+.datepicker .picker .header .month {
+    cursor: pointer;
+}
+.datepicker.flat .picker .header .bbynext,
+.datepicker.flat .picker .header .bbyprev{
+	position: absolute;
+    cursor: pointer;
+	padding: 0 10px;
+	color:transparent;
+}
+.datepicker.flat .picker .header .bbynext {
+    right: 20px;
+    background: url(./images/icon-arrow_right.png) no-repeat !important;
+	
+}
+.datepicker.flat .picker .header .bbyprev{
+    left: 20px;  
+    background: url(./images/icon-arrow_left.png) no-repeat !important;	 
+}
+.datepicker.flat .picker table td,
+.datepicker.flat .picker table th  {
+    text-align: center;
+	height: 60px !important;
+    width: 60px !important;
+	font-size: 16px;
+}
+.datepicker.flat .picker table th {
+	color: #777777;
+}
+.datepicker .picker table td.day {
+    cursor: pointer;
+	border: 1px solid transparent;
+}
+.datepicker.flat .picker table td.day:hover,
+.datepicker.flat .picker table td.day:active {
+    background: #f3f3f3;
+    color: #363535;
+	border : 1px solid #e7e7e7;
+}
+.datepicker .picker table td.day.invalid {
+    opacity: 0.5;
+    cursor: default;
+}
+.bby-date{
+	background-image: url(./images/icon-calendar.svg);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    color: #353535;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: left !important;
+}
+.bby-date:focus{
+	background: url(./images/icon-calendar_focus.svg);
+	background-position: 90% center;
+    background-repeat: no-repeat;
+}
+.bby-div-inline{
+	display: block;
+    width: 50%;
+    float: left;
+    padding-right: 2px;
+}
+.bby-calendar-close{
+	text-align:center;
+	padding:10px 0;
+	border-top:1px solid #c3c4c4;
+	border-bottom:1px solid #c3c4c4;
+	position: relative;
+    left: -11%;
+    width: 121%;
+}
+
+/*---------end of date time picker---------------*/
+/*---------start of bootstrap removal classes----------------------*/
+.row{
+	margin-left:0px !important;
+	margin-right:0px !important;
+
+}
+ul, ol {
+    margin-bottom: 0px;
+}
+/*---------end of bootstrap removal classes----------------------*/
+
+/*------------------start of tab styles--------------------*/
+.tabs {
+	border-bottom: 1px solid #c3c4c4;
+}
+.tabs li {
+	border-bottom: 4px solid transparent;
+	min-height: 48px;
+	text-align: center;
+}
+.tabs li:hover {
+	border-color: #f3f3f3;
+}
+.tabs li.active,
+.tabs li.active:hover {
+	border-color: #e7e7e7;
+	font-weight: bold;
+}
+.tabs li a {
+	cursor: pointer;
+	display: block;
+	width: 100%;
+    padding: 13px 0px;
+}
+.tabs li.active a {
+	color: #000 !important;
+}
+.tab-content{
+	height: calc(100vh - 118px);
+	overflow : auto;
+}
+/*------------------end of tab styles--------------------*/
+
+
+
+/*---------start of modal------------------*/
+	/*---------start of modal-heading------------------*/
+	.bby-modal-heading{
+		padding:10px 0px 10px;
+		font-family:roboto;
+		font-size:18px;
+		color:#353535;
+		text-align:center;
+	}
+	.bby-modal{
+		background-color: rgba(0,0,0,.5);
+	}	
+	.modal-header .close{
+		margin-top:0px !important;
+		padding-top:12px;
+	}
+	/*---------end  of modal-heading------------------*/
+
+	/*---------start of modal-content ------------------*/
+	.bby-modal-content{
+		font-family:roboto;
+		font-size:14px;
+		color:#353535;
+		line-height:24px;
+		min-width:300px;
+		min-height:100px;
+	}
+	.modal-content{
+		top:200px;
+		border-radius:0px;
+		box-shadow: 0px 0px;
+	}
+	/*---------end  of modal-content ------------------*/
+
+	/*---------start of modal-button ------------------*/
+	.modal-footer{
+		text-align:center;
+	} 	
+	.bby-modal-button{
+		width:120px;
+		height:40px;
+	}
+	/*---------end  of modal-button------------------*/
+/*---------end  of modal------------------*/
+
+/*error message border  */
+input.submitted.ng-invalid
+{
+  border:1px solid #f00;
+}
+.bby-error-panel{
+	padding-top: 40vh;
+    text-align: center;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/*---------start of centered footer------------------*/
+.bby-outer {
+	text-align: center;
+}
+
+.bby-inner {
+	margin-left: 100px;
+}
+
+/*---Add button with create symbol blue---*/ 
+.bby-create-blue-btn,.bby-create-blue-btn:focus, .bby-create-blue-btn:active{
+    background: url(./images/icon-add-blue.svg) no-repeat;
+    height: 28px;
+    width: 32px;
+	border:0px solid #fff;
+}
+.bby-div-overflow{
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bby-dasboard{
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/*--------Loading Screen Styles ------*/
+.bby-white-95{
+	background-color: rgba(255,255,255,.95);
+}

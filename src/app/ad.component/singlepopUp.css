@@ -1,0 +1,54 @@
+
+/*------------------end of tab styles--------------------*/
+
+
+
+/*---------start of modal------------------*/
+  /*---------start of modal-heading------------------*/
+  .bby-modal-heading{
+    padding:10px 0px 10px;
+    font-family:roboto;
+    font-size:18px;
+    color:#353535;
+    text-align:center;
+  }
+  .bby-modal{
+    background-color: rgba(0,0,0,.5);
+  } 
+  .modal-header .close{
+    margin-top:0px !important;
+    padding-top:12px;
+  }
+  /*---------end  of modal-heading------------------*/
+
+  /*---------start of modal-content ------------------*/
+  .bby-modal-content{
+    font-family:roboto;
+    font-size:14px;
+    color:#353535;
+    line-height:24px;
+    min-width:300px;
+    min-height:100px;
+  }
+  .modal-content{
+    top:200px;
+    border-radius:0px;
+    box-shadow: 0px 0px;
+  }
+  /*---------end  of modal-content ------------------*/
+
+  /*---------start of modal-button ------------------*/
+  .modal-footer{
+    text-align:center;
+  }   
+  .bby-modal-button{
+    width:120px;
+    height:40px;
+  }
+  /*---------end  of modal-button------------------*/
+/*---------end  of modal------------------*/
+
+ 
+
+
+ 

@@ -1,0 +1,264 @@
+.bby-table{
+  width:100%;
+}
+.bby-table-heading{
+  min-height: 40px;
+  background: #e7e7e7;
+  border-bottom: 1px solid #c3c4c4;
+  border-top: 1px solid #c3c4c4;
+  font-weight: bold;
+  padding:8px 16px 8px;
+  font-size: 13px;
+  clear:both;
+}
+.breadcrum-area {
+ 
+/*background: url(../ICONS/search.svg )no-repeat;*/
+}
+.heading-area {
+
+}
+.search-bar-area {
+/*background: url(../ICONS/search.svg )no-repeat;*/
+}
+/*mat-slider {
+  width: 300px;
+}*/
+
+/* Structure */
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.bbyRssAppSelectionBody{
+  background: rgba(0, 59, 100, 1);
+  height: 100vh;
+ }
+.tag-line-row {
+  padding-bottom: 10%;
+}
+.bby-home-logo-with-tagline-mob{
+    /*background: url(../images/home.png) no-repeat 335px 0px;*/
+    height: 130px;
+    width: 50%;
+    float: left;
+}
+.bby-logo-tagline-for-app-selection {
+    color: #fff;
+    font-size: 20px;
+    padding: 42px 0px;
+    padding-left: 30px;
+    width: 50%;
+    float: right;
+}
+.bby-login-panel {
+    margin: 0 auto;
+    width: 275px;
+    padding: 10px;
+}
+.bby-app-selection-pills {
+    padding:10px;
+    margin: 5px;
+    width: 90%;
+    color: #fff;
+    border-radius: 5px;
+    background: none;
+    height: 120px;
+    border: 1px solid #fff;
+}
+button.bby-app-selection-pills:focus {
+    background: #fff;
+    color: rgba(0, 59, 100, 1);
+}
+.bby-wrk-label-small-text{
+    font-size: 12px;
+    text-align: center;
+}
+.bby-wrk-pills-big-text {
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+}
+
+.bby-wrk-pills-small-text {
+ font-size: 15px;
+ text-align: center;
+}
+.app-sel-row{
+  text-align:center;
+  margin:0px;
+} 
+.app-sel-col {
+  padding:0px;
+}
+.list-group-item-home{
+    /* position: relative; */
+    /* display: block; */
+    /* padding: 40px 20px; */
+    /* margin-bottom: -1px; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+        padding: 40px 20px;
+}
+.list-group {
+  margin-bottom: 0px;
+}
+.bby-priamry-btn-login{
+  width:50%;
+}
+.login-input-width{
+  width:50%;
+  margin:0px;
+}
+ .bby-overlay-left{
+  top:60px;
+  transition: width 0.9s;
+  width: 300px;
+  height: 100vh;
+  z-index: 2;
+  position: fixed;
+  background-color: #fff;
+  left:0px;
+}
+.bby-menu-home{
+  padding:35px 16px 25px 16px;
+  list-style: none;
+  color:#085eb9;
+}
+.bby-menu-content{
+  padding:7px 17px 7px;
+  list-style: none;
+  height:  calc(100vh - 267px);
+  overflow:auto;
+}
+.bby-menu-list{
+  font-family: roboto;
+  font-size: 14px;
+  color: #085eb9;
+  padding:17px 0px; 
+}
+.bby-menu-footer{
+  bottom: 0;
+    padding-left: 0px;
+    list-style: none;
+    position: fixed;
+    width: inherit;
+}
+.bby-footer-list{
+  font-family: roboto-bold;
+  font-weight: bold;
+  font-size: 14px;
+  color: #858585;
+  padding:18px 17px 18px 20px;
+  background-color:#fafbfd;
+  border-top:1px solid #dddede;
+}
+@media (max-width: 768px){
+  .login-input-width{
+    width:100%;
+    margin:0px;
+  }
+  .tag-line-row {
+      padding-bottom: 30%;
+  }
+  .bby-priamry-btn-login{
+    width:100%;
+  }
+  .bby-home-logo-with-tagline-mob{
+    /*  background: url(./images/home.png) no-repeat 50px 0px;*/
+      height: 116px;
+      width: 210px;
+      float: left;
+  }
+   .bby-overlay-left{
+    z-index: 3;
+  }
+
+}
+
+breadcrumb-item a{
+  font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pulling-right{
+  float: right;
+
+
+}
+    
+
+
+/*css for modal component */
+
+.bby-menu-button {
+    background: url(../assets/images/icon-menu.svg) 18px no-repeat;
+  background-position-y: bottom;
+   
+  float: left 
+}
+.bby-logo{
+   /*background: url(../assets/images/img-rss_logo_white.png) 10px no-repeat;  
+ 
+        width: 30%;
+    height: 160%;
+    float: left;
+    margin-top: 23px;*/
+    position: absolute;
+    margin-top: -6px;
+    width: 22%;
+    height: 73px;
+
+
+}
+.bestbuy-menu{
+  background: #003b64;
+      height: 60px;
+
+}
+.Drag-button{ 
+        
+    border-radius: 100%;
+    width: 80px;
+    margin: 0px;
+
+    height: 66px;
+    
+    background-size: contain;
+
+    position: absolute;
+    display: block;
+    z-index: 999;     
+   
+ 
+
+}
+.draggable-image{
+  position: relative;
+    height: 66px;
+    width: 80px;
+    border-radius: 100%;
+    border: 1PX SOLID WHITE;
+    background: gray;
+}

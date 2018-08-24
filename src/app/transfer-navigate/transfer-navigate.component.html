@@ -1,0 +1,71 @@
+<h1>
+  {{shippedManifestOver15DaysString}}
+</h1> 
+
+<div class="layouts" >
+<table  >
+	<thead class="bby-table-heading">
+		
+		<th>ReferenceNumber</th>
+		<th>RtvNumber</th>
+		<th>Status</th>
+		<th>Date</th>
+		<th>ToLocationName</th>
+		<th>ToLocationId</th>
+		<th>comments</th>
+		<th>daysPeding</th>
+		<th>fromLocationId</th>
+		<th>fromLocationName</th>
+		<th>transferNumber</th>
+	</thead>
+	<tbody >	
+		<tr *ngFor="let hero of dataToDisplay" >
+	 <td  > <input [value]=hero.referenceNumber (input)="hero.referenceNumber=$event.target.value" /> </td>
+	 <td   contentEditable="true"><input [value]=hero.rtvNumber (input)="hero.rtvNumber=$event.target.value" /> </td>
+	 <td   contentEditable="true"><input [value]=hero.status (input)="hero.status=$event.target.value" /></td>
+	 <td   contentEditable="true"><input [value]=hero.date (input)="hero.date=$event.target.value" /></td>
+	 <td   contentEditable="true"><input [value]=hero.toLocationName (input)="hero.toLocationName=$event.target.value" /> </td>
+	 <td   contentEditable="true"><input [value]=hero.toLocationId (input)="hero.toLocationId=$event.target.value" /></td>
+	 <td   contentEditable="true"><input [value]=hero.comments (input)="hero.comments=$event.target.value" /> </td>
+	 <td   contentEditable="true"><input [value]=hero.daysPeding (input)="hero.daysPeding=$event.target.value" /></td>
+	 <td   contentEditable="true"><input [value]=hero.fromLocationId (input)="hero.fromLocationId=$event.target.value" /></td>
+	 <td   contentEditable="true"><input [value]=hero.fromLocationName (input)="hero.fromLocationName=$event.target.value" /> </td>
+	 <td   contentEditable="true"><input [value]=hero.transferNumber (input)="hero.transferNumber=$event.target.value" /></td>
+		</tr>
+</tbody>
+</table>
+</div>
+
+<button (click)="onClickMe($event)">save</button>
+<!-- <iframe width="420" height="315"
+src="C:\Users\a1325723\Downloads\MyReport (1).csv">
+</iframe> -->
+
+<!-- <div class="bby-header">
+	<button class="bby-menu" ng-click="menuButton()"></button>
+	 LABEL_SHIPPING_RECEIVING   
+	<button class="bby-search" ng-click="buttonHomeSearch()"></button>
+
+</div>
+<div class="bby-full-content bby-padding-remover" ng-class="noScroll" ng-init="initLoad()">
+	<div class="row">
+		<div ng-class="{ active: tabs }" ng-hide="tabs">
+			<ul class="list-unstyled clearfix tabs">
+				<li ng-class="{ active: isSet(1) }"
+					class=" col-xs-6 col-sm-3 col-sm-offset-3"><a 
+					ng-click="setTab(1)" class="bby-text-center"><strong> LABEL_OUTBOUND </strong></a></li>
+
+				<li ng-class="{ active: isSet(2) }" class=" col-xs-6 col-sm-3 ">
+					<a  ng-click="setTab(2)" class="bby-text-center"><strong>LABEL_INBOUND </strong></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+ 	<div ng-if="searchPanel">
+		<div class="hidden-sm hidden-xs bby-overlay" ng-click="closeMenu() ; showCancelModal = false"></div> 
+		
+	</div>  
+</div> -->
+<!-- <search-panel></search-panel> -->
+<!--  <td   contentEditable="true"><input ng-model=hero.rtvNumber ng-change="hero.rtvNumber=$event.target.value" /> </td> -->

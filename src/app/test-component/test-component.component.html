@@ -1,0 +1,70 @@
+<!-- <table  >
+	<thead class="bby-table-heading">
+		<th>RtvNumber</th>
+		<th>ReferenceNumber</th>
+		<th>Status</th>
+		<th>Date</th>
+		<th>ToLocationName</th>
+		<th>ToLocationId</th>
+	</thead>
+	<tbody >	
+		<tr *ngFor="let hero of dataToDisplay" >
+		<td >{{hero.rtvNumber}}</td>
+		<td> {{hero.referenceNumber}}</td>
+		<td> {{hero.status}}</td>
+		<td>{{hero.date}}</td>
+		<td> {{hero.toLocationName}}</td>
+		<td> {{hero.toLocationId}}</td>
+		</tr>
+</tbody>
+</table> -->
+<h3>Table striped for table , thead-dark for head and col and row classes for all items </h3>
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>     
+    <th scope="col">RtvNumber</th>
+		<th scope="col">ReferenceNumber</th>
+		<th scope="col">Status</th>
+		<th scope="col">Date</th>
+		<th scope="col">ToLocationName</th>
+		<th scope="col">ToLocationId</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr  scope="row" *ngFor="let hero of dataToDisplay" >
+		<td >{{hero.rtvNumber}}</td>
+		<td> {{hero.referenceNumber}}</td>
+		<td> {{hero.status}}</td>
+		<td>{{hero.date}}</td>
+		<td> {{hero.toLocationName}}</td>
+		<td> {{hero.toLocationId}}</td>
+		</tr>    
+  </tbody>
+</table>
+
+<h3>Sharing information between services<span class="badge badge-secondary">New</span></h3>
+ <div class="border border-light">
+ <form class="row    ">
+ 	 
+ 		<!-- <span class='col-lg-2 border'></span>
+ 		<input   type="" name="newName" value='Username' placeholder="Username" class="form-control col-lg-8 border  border-dark"> 
+ 	 
+ 	<span class="col-lg-2  border border-white"></span> -->
+<span class="col-lg-2  border border-white"></span>
+
+<button (click)= "setData('Open' )" class="col-lg-4 border border-success" >Open</button>
+<button (click)= "setData('close' )"  class="col-lg-4 border border-danger">close</button>
+<span class="col-lg-2 border border-white"></span>
+
+ </form>
+</div>
+
+<h3>app name is {{"HOMES"|translate}}</h3>
+<!-- <button (click)="onClickMe($event)">save</button> -->
+<search-panel></search-panel>
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+ <!--  <form >
+
+<input type="text" name="ItemNumber">
+<input type="text" name="location">
+<input type="text" name="Date">
+
+<select>
+<option>group</option>	
+<option>class</option>	
+<option>subclass</option>	
+</select>
+
+<select>
+<option>Open</option>	
+<option>closed</option>	
+<option>Approved</option>	
+<option>Intransit</option>	
+</select>
+
+</form>  --> 
+
+ <!--     
+  <form #heroForm="ngForm"  type="submit">
+<div class="form-group" *ngIf='IsOpen'>
+  <label for="firstname">firstname</label>
+  <input type="text" class="form-control" id="firstname"
+         required
+         [(ngModel)]="model.firstname" name="name">
+</div>
+
+<div class="form-group" *ngIf='!IsOpen'>
+  <label for="lastname">Alter Ego</label>
+  <input type="text"  class="form-control" id="lastname"
+         [(ngModel)]="model.lastname" name="lastname">
+</div>
+
+ 
+
+<div class="form-group">
+  <label for="age">Age</label>
+  <input type="number"  class="form-control" id="age"
+         [(ngModel)]="model.age" name="age">
+</div>
+
+ <button  class="btn btn-success"    >Submit</button>
+ </form> -->
+
+ <!-- {{diagnostic}} -->
+
+ 
+
+ <div class="card" style="width: 20rem;">
+   
+  <div class="card-body">
+    <h4 class="card-title">Searchpanel component</h4>
+    <p class="card-text">value in service from searchpanel is </p>
+    <a href="#" class="btn btn-primary">{{data}}</a>
+  </div>
+</div>
+<!-- grouping forms  -->
+ <form [formGroup]="loginForm" (ngSubmit)="loginForm.valid && doLogin($event)" novalidate>
+ <!-- 	<input formControlName="firstname" type="text" placeholder="Enter Firstname">
+    <input formControlName="lastname" type="text" placeholder=" Enter Lastname"> -->
+    <input formControlName="email" type="text" placeholder="Your Email">
+    <input formControlName="password" type="password" placeholder="Your Password">
+    <!-- <input formControlName="age" type="number" placeholder="Your Age">
+    <input formControlName="class" type="text" placeholder="specify Your Class"> -->
+   
+  <button type="submit" >Log in</button>
+  loginForm{{loginForm}}
+</form>
+
+
+<!-- . -->
+ <form [formGroup]="loginFormGroup" (ngSubmit)="loginFormGroup.valid && doLogin(loginFormGroup)" novalidate>
+ <!-- 	<input formControlName="firstname" type="text" placeholder="Enter Firstname">
+    <input formControlName="lastname" type="text" placeholder=" Enter Lastname"> -->
+    <input formControlName="email" type="email" placeholder="Your Email">
+    <input formControlName="password" type="password" placeholder="Your Password">
+    <!-- <input formControlName="age" type="number" placeholder="Your Age">
+    <input formControlName="class" type="text" placeholder="specify Your Class"> -->
+   
+  <button type="submit" >Log in</button>
+  loginForm{{loginForm}}
+</form>
+<form #heroForm="ngForm" (ngSubmit)='heroForm.valid && doLogin(heroForm)'>
+<input name="firstname" type="text" placeholder="Enter Firstname" pattern="[a-zA-Z0-9 ]*" required [(ngModel)]="firstname" trim #spy1>
+<input name="lastname" type="password" placeholder="Enter Lastname" required [(ngModel)]="password" #spy2>
+<input name="age" type="number" placeholder=" Enter age" [(ngModel)]="age" #spy3> 
+<input name="class" type="text" placeholder=" Enter class" [(ngModel)]="class" #spy4>
+ 	<button type="submit" >Log in</button>
+</form>
+{{switch_expression}}
+<ul [ngSwitch]="switch_expression">
+  <li *ngSwitchCase="match_expression_1">match_expression_1</li>
+  <li *ngSwitchCase="match_expression_2">match_expression_2</li>
+  <li *ngSwitchCase="match_expression_3">match_expression_3</li>
+  <ol *ngSwitchCase="match_expression_4">
+    <!-- use a ol to group multiple root nodes -->
+    <li>inner-element</li>
+    <li>inner-other-element</li>
+  </ol>
+  <li *ngSwitchDefault>Default list </li>
+</ul>
+<div class='container'>
+ <!-- <p popupgenerate> Hidden Welcome1</p> 
+ <p  [popupgenerate]="green"> Hidden Welcome2</p> 
+ <p  bind-popupgenerate="blue"> Hidden Welcome3</p> 
+ <p  popupgenerate={{titleColor}}> Hidden Welcome4</p> --> 
+ <!-- <p newHostlisterner> this is using host listener </p> --> <!-- hostlistener -->
+
+<!--
+<ng-template *appPopUpDirective="!hover" > <h4>Hidden Welcome2</h4></ng-template> --> 
+{{showCpIf}} is showCpIf
+<div *popupgenerate="!showCpIf">
+  <b>Hello World!</b>
+</div>
+<ng-template [popupgenerate]="showCpIf">
+      <div>
+    <b>Not Available</b>
+      </div>
+</ng-template> 
+
+
+<a eventReceiver>event release or scroll on me </a>
+
+<ul>
+ <li *looper="3" >
+     Namaste
+ </li> 
+</ul> 
+
+ <h3>ADD BANNER FUNCTIONALITY</h3>
+
+<app-ad-component></app-ad-component>
+
+<div>
+ <h3>ADD BANNER FUNCTIONALITY<h3>ADD BANNER FUNCTIONALITY</h3><h3>ADD BANNER FUNCTIONALITY</h3><h3>ADD BANNER FUNCTIONALITY</h3><h3>ADD BANNER FUNCTIONALITY</h3><h3>ADD BANNER FUNCTIONALITY</h3></h3>
+  </div>
+
+  
+    
+
+<!-- <p eventReceiver>paragraph for scrolling </p> -->
+
+ <div>{{ 'HOMES' | translate }}
+ 	 
+
+</div>

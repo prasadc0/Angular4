@@ -1,0 +1,94 @@
+@media print{@page {size: landscape}}
+
+/*---------start of font-family ------------------*/
+@font-face {
+    font-family: roboto;
+    src: url(roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(roboto/Roboto-Bold.ttf);
+}
+/*---------end  of font-family------------------*/
+
+
+/*---------start of heading tag (h1 to h6) ------------------*/
+h2{
+	font-size:19px;
+	line-height:27px;
+	padding-left:10px;
+	display:block;
+}
+h3{
+	font-size:18px;
+	line-height:25px;
+	padding-left:10px;
+	display:block;
+}
+h4{
+	font-size:16px;
+	line-height:24px;
+	padding-left:10px;
+	display:block;
+}
+/*---------end  of heading tag------------------*/
+
+
+/*---------start of body tag------------------*/
+body{
+	font-family:roboto;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #353535;
+	width:100%;
+}
+/*---------end  of body tag------------------*/
+
+/*---------start of table tag------------------*/
+.printabletable{
+	width:100%;
+}
+.printabletable tr td{
+	width:32%;
+}
+.printabletable .3columneddata td{
+	display:inline-block;
+}
+.bby-mr-table-head{
+	margin:0px;
+	font-weight: bold;
+	font-family:roboto-bold;
+	word-wrap: break-word;
+}
+.bby-mr-table-head>td{
+	padding-left:10px;
+}
+.bby-mr-table-body>td{
+	padding-right:10px;
+	padding-left:10px;
+}
+/*---------End of table tag------------------*/
+.bby-mr-no-item{
+	 padding-top:15px;
+	 padding-left:10px;
+}
+.rightalign{
+	text-align: right;
+	padding-right:15px;
+}
+.fontweight{
+	font-weight: normal;
+}
+.fullwidth{
+	width:100%;
+}
+.halfwidth{
+	width: 49%;
+}
+ div.pageLandscape
+    {
+     -webkit-transform: rotate(-90deg); 
+     -moz-transform:rotate(-90deg);
+     filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    }

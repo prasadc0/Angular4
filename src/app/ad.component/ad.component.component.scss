@@ -1,0 +1,121 @@
+ 
+
+ 
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+$quarter-padding: 50px;
+ $capital-me:capitalize;
+ $fifty-percent:50%;
+ /* variables */
+ 
+  /* @import '../../_mixins.scss'; */
+strong{
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+p{
+  padding: quarter-padding;
+}
+h2{
+  border:1px solid $primary-color;
+  left:$fifty-percent;
+
+}
+span{
+  color:green;
+  text-transform: $capital-me;
+}
+
+/* Nesting  is great and easy when debugging for an error*/
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid black;
+
+  }
+
+  li { display: inline-block; 
+    border: 1px solid green;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 1px solid brown;
+
+  }
+}
+/* Partials */
+
+  @import './_mixoids.scss';
+
+
+/* Mixins */
+/* This is now time for mixins the below code imports the  mixoids.scss file and make it's properties yours  */
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin height($val) {
+  height: $val;
+     
+}
+@mixin width($arg) {
+     width: $arg;
+     
+}
+
+.box {
+
+ @include border-radius(40px);
+  border: 3px solid #BADA55;
+  @include height(140px);
+  @include width(140px)
+
+  }
+
+
+
+/* MIXINS */ /* all the info in message will be added to success , error , warning classes  */
+
+.success {
+  @extend .message;/* message is taken from mixoids.scss as a part of MIXINS */
+  border-color: green;
+}
+
+.error {
+  @extend .message; /* message is taken from mixoids.scss as a part of MIXINS */
+  border-color: red;
+}
+
+.warning {
+  @extend .message; /* message is taken from mixoids.scss as a part of MIXINS */
+  border-color: yellow;
+}
+
+/*  */
+
+.container { width: 100%; }
+
+
+article  {
+  float: left;
+  width: 300px / 960px * 100%;
+}
+
+aside  {
+  float: right;
+  width: 600px / 960px * 100%;
+}
